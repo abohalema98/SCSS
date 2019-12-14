@@ -1,0 +1,62 @@
+@import "../helpers/variabl/variabl","../helpers/mixin/mixin.scss","../layout/footer","../layout/nav","../components/images";
+
+header{
+    @include headerstyle();
+}
+
+body{
+    // border: $body_border;
+    background-color: $bodybg_color;
+    width:$body_width;
+}
+p{
+    font:$p_font;
+    text-align: $p_text;
+    color: $p_color;
+}
+.pernt{
+    border: $style_border;
+    width: $header_width;
+    height: $div_het;
+    text-align: $img_text;
+
+
+}
+footer{
+
+    @include footermixin();
+
+}
+.main{
+  
+    position: $main_postion;
+    top: $main_Equl;
+    left: $main_Equl;
+    transform:$main_trans;
+
+}
+.nav{
+    width:$nav_width;
+    border:$nav_border; 
+}
+
+.nav li {
+    list-style: $nav_none ;
+    display: $nav_display ;
+    padding:$nav_padding ;
+  }
+  a{
+      text-decoration: $nav_none;
+  }
+  img{
+      width: $img_width;
+      border-radius: $img_raduis;
+      margin-top:130px;
+
+  }
+
+
+  
+  
+
+

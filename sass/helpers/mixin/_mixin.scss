@@ -1,0 +1,32 @@
+@import "../variabl/variabl","../../layout/header","../../components/button";
+
+// header style mixin 
+@mixin headerstyle() {
+
+    width: $header_width;
+    border:$header_border;
+    background-color:$bg_colorp;
+
+};
+
+// footer style mixin
+@mixin footermixin() {
+    width: $footer_width;
+    border:$footer_border;
+    background-color:$bg_colort;
+
+}
+
+@mixin btnstyle () {
+    background-color:$btnbgcolor;
+    padding:$btnpadding ;
+    border-radius: $btnraduis;
+    margin-top: $btnmargin;
+
+}
+
+
+
+
+
+

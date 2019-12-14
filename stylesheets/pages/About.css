@@ -1,0 +1,67 @@
+/* line 3, ../../sass/pages/About.scss */
+header {
+  width: 600px;
+  border: 2px solid black;
+  background-color: pink;
+}
+
+/* line 7, ../../sass/pages/About.scss */
+body {
+  background-color: lightgray;
+  width: 700px;
+}
+
+/* line 12, ../../sass/pages/About.scss */
+p {
+  font: 22px bold tahoma;
+  text-align: center;
+  color: black;
+}
+
+/* line 17, ../../sass/pages/About.scss */
+.pernt {
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+  text-align: center;
+}
+
+/* line 25, ../../sass/pages/About.scss */
+footer {
+  width: 600px;
+  border: 2px solid black;
+  background-color: teal;
+}
+
+/* line 30, ../../sass/pages/About.scss */
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 38, ../../sass/pages/About.scss */
+.nav {
+  width: 560px;
+  border: 2px solid black;
+}
+
+/* line 43, ../../sass/pages/About.scss */
+.nav li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+
+/* line 48, ../../sass/pages/About.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 51, ../../sass/pages/About.scss */
+img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 130px;
+}

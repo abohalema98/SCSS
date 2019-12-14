@@ -1,0 +1,43 @@
+@import "../helpers/variabl/variabl","../helpers/mixin/mixin.scss","../layout/footer","../components/button";
+
+
+body{
+    // border: $body_border;
+    background-color: $bodybg_color;
+    width:$body_width;
+}
+p{
+    font:$p_font;
+    text-align: $p_text;
+    color: $p_color;
+}
+.pernt{
+    border: $style_border;
+    width: $header_width;
+    height: $div_het;
+    text-align: $style_text;
+    
+}
+
+header{
+    @include headerstyle();
+}
+
+
+footer{
+
+    @include footermixin();
+
+}
+.main{
+  
+    position: $main_postion;
+    top: $main_Equl;
+    left: $main_Equl;
+    transform:$main_trans;
+
+}
+button{
+    @include btnstyle ()
+}
+
